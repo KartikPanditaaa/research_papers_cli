@@ -1,0 +1,24 @@
+[project]
+name = "research-papers-cli"
+version = "0.1.0"
+description = "Fetch and process research papers from PubMed."
+authors = [{name = "Kartik Pandita", email = "tracekartik@gmail.com"}]
+readme = "README.md"
+
+# Specify Python compatibility
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.31.0"
+]
+
+[project.scripts]
+get-papers-list = "cli:main"
+
+# Define the package directory
+[tool.poetry]
+packages = [{ include = "research_papers_cli" }]  # Assuming your package is named 'research_papers_cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
