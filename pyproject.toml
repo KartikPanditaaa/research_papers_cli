@@ -17,7 +17,7 @@ get-papers-list = "cli:main"
 
 # Define the package directory
 [tool.poetry]
-packages = [{ include = "research_papers_cli" }]  # Assuming your package is named 'research_papers_cli'
+packages = [{ include = "research_papers" }]  # Because our package is named 'research_papers'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
