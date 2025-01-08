@@ -1,7 +1,7 @@
 # Command-Line Program: A script that uses the module to handle CLI operations.
 
 import argparse
-from research_papers_cli import PubMedClient, extract_non_academic_authors
+from research_papers import PubMedClient, extract_non_academic_authors
 import csv
 import requests
 
