@@ -1,3 +1,5 @@
+# Module: Contains reusable logic for interacting with the PubMed API and processing the results
+
 import requests
 import csv
 from typing import List, Dict, Tuple, Optional
