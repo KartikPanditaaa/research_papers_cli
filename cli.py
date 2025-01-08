@@ -1,3 +1,5 @@
+# Command-Line Program: A script that uses the module to handle CLI operations.
+
 import argparse
 from research_papers_cli import PubMedClient, extract_non_academic_authors
 import csv
@@ -13,11 +15,12 @@ def main():
     parser.add_argument("-f", "--file", type=str, help="Output CSV file.")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode.")
     # parser.add_argument("-h", "--help", action="help", help="Display usage instructions.")
+    # -h or --help command already exists as default 
 
-    # Parse the arguments
+    # Parsing the arguments
     args = parser.parse_args()
 
-    # Initialize PubMed client
+    # Initializing PubMed client
     client = PubMedClient()
 
     try:
