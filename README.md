@@ -48,7 +48,7 @@ Follow these steps to set up the **Research Papers CLI**:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/research-papers-cli.git
+   git clone https://github.com/KartikPanditaaa/research-papers-cli.git
    cd research-papers-cli
    ```
 2. **Set Up Python Environment**: Ensure Python 3.8+ is installed on your system.
