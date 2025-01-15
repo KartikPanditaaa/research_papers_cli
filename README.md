@@ -55,36 +55,36 @@ Follow these steps to set up the **Research Papers CLI**:
 
 3. **Install Dependencies**: Use Poetry to install all required dependencies:
 
-```bash
-poetry install
-```
+   ```bash
+   poetry install
+   ```
 4. **Verify Installation**: Run the help command to ensure the tool is set up correctly:
 
-``bash
-poetry run python cli.py --help
-```
+   ```bash
+   poetry run python cli.py --help
+   ```
 
 ## Usage
 
 Use the CLI tool to fetch research papers and process them:
 
 **Basic Usage**
-```bash
-poetry run get-papers-list "your query string" -f output.csv
-```
+   ```bash
+   poetry run get-papers-list "your query string" -f output.csv
+   ```
 Example:
 To search for papers on CRISPR technology and save the results to crispr_results.csv:
 
-```bash
-poetry run get-papers-list "CRISPR technology" -f crispr_results.csv
-```
+   ```bash
+   poetry run get-papers-list "CRISPR technology" -f crispr_results.csv
+   ```
 
 **Debug Mode**:
 Enable debug logs to monitor API requests and responses:
 
-```bash
-poetry run get-papers-list "CRISPR technology" -f crispr_results.csv -d
-```
+   ```bash
+   poetry run get-papers-list "CRISPR technology" -f crispr_results.csv -d
+   ```
 
 **Command Options**
 **-f, --file**: Specify the name of the output CSV file (default: output.csv).
