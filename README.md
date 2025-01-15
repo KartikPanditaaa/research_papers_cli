@@ -86,10 +86,11 @@ Enable debug logs to monitor API requests and responses:
    poetry run get-papers-list "CRISPR technology" -f crispr_results.csv -d
    ```
 
-**Command Options**
-**-f, --file**: Specify the name of the output CSV file (default: output.csv).
-**-d, --debug**: Enable debug mode for detailed logging.
-**-h, --help**: Display help information about the commands.
+**Command Options**:
+
+- **-f, --file**: Specify the name of the output CSV file (default: output.csv).
+- **-d, --debug**: Enable debug mode for detailed logging.
+- **-h, --help**: Display help information about the commands.
 
 ## Contributing
 
